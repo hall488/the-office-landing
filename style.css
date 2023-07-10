@@ -53,7 +53,9 @@ a:hover {
     align-items: center;
     padding: 64px;
     color:#F9FAF8;
-    gap: 64px
+    gap: 64px;
+    flex-wrap: wrap;
+    
 }
 
 .section-one
@@ -90,6 +92,8 @@ img {
     flex-direction: column;
     align-items: center;
     margin-bottom: 64px;
+    background-color: #F9FAF8;
+    
 }
 
 .two-top {
@@ -103,6 +107,7 @@ img {
     display: flex;
     gap: 16px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .two-item {
@@ -121,4 +126,33 @@ img {
     text-align: center;
     font-size: 16px;
     color: #1F2937;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 350px;
+}
+
+.three-text-big {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 8px;
+}
+
+.three-text-small {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: bold;
 }
