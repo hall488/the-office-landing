@@ -91,7 +91,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
     background-color: #F9FAF8;
     
 }
@@ -155,4 +155,35 @@ img {
     align-self: flex-end;
     font-size: 16px;
     font-weight: bold;
+}
+
+.section-four {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.four-bubble {
+    background-color: rgb(17, 142, 197);
+    border-radius: 16px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px
+}
+
+.bubble-left {
+    color:#F9FAF8;
+}
+
+.bubble-text-top {
+    font-size: 24px;
+}
+
+.bubble-text-bottom {
+    font-size: 16px;
+    color: #E5E7EB;
 }
