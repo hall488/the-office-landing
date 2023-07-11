@@ -21,7 +21,9 @@ ul {
     padding: 0px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
+
 
 a {
     text-decoration: none;    
@@ -60,11 +62,13 @@ a:hover {
 
 .section-one
 img {
-    width:  400px;
+    min-width: 200px;
+    flex: 1 1 400px;
 }
 
 .one-left {
     width: 400px;
+    flex: 1 1 400px;
 }
 
 .one-text-big {
